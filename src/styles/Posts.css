@@ -1,0 +1,127 @@
+.post-page{
+    margin-top: 150px;
+    align-items: center;
+}
+
+.post-page > h1{
+    margin-top: 50px;
+}
+
+.input-post{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 1.5rem;
+}
+
+.save-post{
+    margin: 20px auto;
+    height: 50px;
+    width: 100px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.save-post:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+.input-post > textarea{
+    font-size: 1.3rem;
+    height: 150px;
+    text-indent: 2px;
+}
+
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-bottom: 200px;
+}
+
+.post-item{
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #E8F9FD;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-header{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.post-header > p{
+    color: black;
+    padding-top: 5px;
+}
+
+.post-user-icon{
+    color: black;
+    
+}
+
+.body-post{
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.post-user-icon{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.post-name{
+    margin-right: 20px;
+}
+
+.post-item > div{
+    text-align: center;
+    color: gray;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.post-item > div > p{
+    margin-right: 30px;
+}
+
+.post-item > div > button{
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.post-item > div > button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aqua;
+}
+
+.pen-icon{
+    margin-right: 10px;
+}

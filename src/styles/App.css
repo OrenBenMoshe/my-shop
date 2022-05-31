@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+
+body{
+    width: 100%;
+    background-image: linear-gradient(to top right, #ffb72b, #d18ce0);
+    background-attachment: fixed;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  margin-top: 100px;
+}
+
+/* ul > li {
+  font-size: 1.8rem;
+  list-style: none;
+  max-width: 350px;
+} */

@@ -1,0 +1,92 @@
+.edit-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.9rem;
+    margin-bottom: 150px;
+}
+
+.edit-post > textarea{
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 1.5rem;  
+}
+
+.edit-post > textarea:focus{
+    outline: none;
+}
+
+.save-btn{
+    margin-top: 15px;
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    background-color: lightgreen;
+}
+
+.save-btn:hover{
+    cursor: pointer;
+    color: lightgreen;
+    background-color: black;
+}
+
+.save-icon{
+    font-size: 1.7rem;
+}
+
+.delete-icon{
+    font-size: 1.7rem;
+}
+
+.post-btn-holder{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.delete-btn{
+    margin-top: 15px;
+    width: 70px;    
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.delete-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}
+
+.go-back-post{
+    margin-top: 15px;
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: none;
+    background-color: #79DAE8;
+    color: white;
+}
+
+.go-back-post:hover{
+    cursor: pointer;
+    color: #79DAE8;
+    background-color: white;
+}
+
+.go-back-post-icon{
+    font-size: 2rem;
+}
